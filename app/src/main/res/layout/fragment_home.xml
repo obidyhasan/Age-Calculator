@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+
+
+
+    <RelativeLayout
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/homePersonNameTextId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guest"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/homeDateTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monday, 20 Jan"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/homePersonImageId"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/image_round"
+            android:src="@drawable/avatar_4" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--- Age Calculate Layout Start........................................................ -->
+
+            <LinearLayout
+                android:id="@+id/ageCalculateLayoutId"
+                android:baselineAligned="false"
+                android:background="@drawable/age_calculate_ripple"
+                android:weightSum="9"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/age_calculate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="@string/age_calculate_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:lottie_rawRes="@raw/age_calculator_lottie"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--- Age Calculate Layout End ........................................................ -->
+
+
+
+
+
+
+
+            <!--- Name of Day Layout Start........................................................ -->
+
+            <LinearLayout
+                android:id="@+id/nameOfDayLayoutId"
+                android:baselineAligned="false"
+                android:background="@drawable/name_of_day_ripple"
+                android:weightSum="9"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/name_of_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="@string/name_of_day_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_rawRes="@raw/name_of_day_lottie"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--- Name of Day Layout End ........................................................ -->
+
+
+
+
+
+
+
+            <!--- Age Compare Layout Start........................................................ -->
+
+            <LinearLayout
+                android:id="@+id/ageCompareLayoutId"
+                android:baselineAligned="false"
+                android:background="@drawable/age_compare_ripple"
+                android:weightSum="9"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/age_compare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="@string/age_compare_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_rawRes="@raw/age_compare_lottie"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--- Age Compare Layout End ........................................................ -->
+
+
+
+
+
+
+            <!--- Person Add Layout Start........................................................ -->
+
+            <LinearLayout
+                android:id="@+id/addPersonLay"
+                android:baselineAligned="false"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/person_add_ripple"
+                android:weightSum="9"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@string/person_add"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:text="@string/person_add_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_margin="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:lottie_rawRes="@raw/person_add_lottie"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--- Person Add Layout End ........................................................ -->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

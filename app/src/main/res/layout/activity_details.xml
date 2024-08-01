@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+
+    <RelativeLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:onClick="detailsBackBtn"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/back_lottie" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/person_add_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:layout_editor_absoluteX="0dp">
+
+
+                    <TextView
+                        android:id="@+id/detailsNameId"
+                        android:layout_marginTop="65dp"
+                        android:layout_gravity="center"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:text="@string/name"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+
+                            <LinearLayout
+                                android:background="@drawable/shep_1"
+                                android:layout_width="6dp"
+                                android:layout_height="match_parent"/>
+
+
+
+                            <TextView
+                                android:layout_marginStart="8dp"
+                                android:textColor="@color/black"
+                                android:id="@+id/detailsSubjectId"
+                                android:textSize="17sp"
+                                android:text="@string/birthday"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+
+                            <LinearLayout
+                                android:layout_marginStart="12dp"
+                                android:background="@drawable/shep_2"
+                                android:layout_width="6dp"
+                                android:layout_height="match_parent"/>
+
+
+
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:id="@+id/detailsDayId"
+                                android:textSize="16sp"
+                                android:text=""
+                                android:layout_marginStart="8dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="16sp"
+                                android:text="-"
+                                android:layout_marginStart="2dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:id="@+id/detailsMonthId"
+                                android:textSize="16sp"
+                                android:text=""
+                                android:layout_marginStart="2dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="16sp"
+                                android:text="-"
+                                android:layout_marginStart="2dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                            <TextView
+                                android:textColor="@color/black"
+                                android:id="@+id/detailsYearId"
+                                android:textSize="16sp"
+                                android:text=""
+                                android:layout_marginStart="2dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:background="@drawable/image_round"
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/detailsImageId"
+                        android:background="@drawable/image_round"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp" />
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+            <!-- Age Layout Start -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical"
+                android:background="@drawable/person_add_back"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:text="@string/age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:id="@+id/dayRelative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <RelativeLayout
+                            android:elevation="1dp"
+                            android:id="@+id/ageDayRel"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/white_lay_back"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/year"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ageYearAnim"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ageDayRel"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/age_back"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/perAgeYearId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_margin="10dp"
+                        android:layout_toEndOf="@+id/dayRelative"
+                        android:gravity="center"
+                        android:id="@+id/monthRelative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <RelativeLayout
+                            android:id="@+id/ageMonthRel"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/white_lay_back"
+                            android:elevation="1dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/month"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ageMonthAnim"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/age_back"
+                            android:layout_below="@+id/ageMonthRel"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content">
+
+
+
+                            <TextView
+                                android:layout_margin="4dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:id="@+id/perAgeMonthId"
+                                android:text=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_margin="10dp"
+                        android:layout_toEndOf="@+id/monthRelative"
+                        android:gravity="center"
+                        android:id="@+id/yearRelative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <RelativeLayout
+                            android:id="@+id/ageYearRel"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/white_lay_back"
+                            android:elevation="1dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/day"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ageDayAnimId"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/age_back"
+                            android:layout_below="@+id/ageYearRel"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content">
+
+
+
+                            <TextView
+                                android:id="@+id/perAgeDayId"
+                                android:layout_margin="4dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                android:text=""
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <!-- Next Birthday layout start -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/person_add_back"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:text="@string/next_birthday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:id="@+id/nextMonLay"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:elevation="1dp"
+                            android:background="@drawable/white_lay_back"
+                            android:orientation="vertical"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="20dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="8dp"
+                                    android:padding="5dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textSize="18sp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/month"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/nextMonthBirthId"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:text=""
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_toEndOf="@+id/nextMonLay"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:elevation="1dp"
+                            android:background="@drawable/white_lay_back"
+                            android:orientation="vertical"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="20dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_marginTop="8dp"
+                                    android:padding="5dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textSize="18sp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/day"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/nextDayBirthId"
+                                    android:textColor="@color/black"
+                                    android:gravity="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    android:text=""
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <!-- Delete Button layout -->
+            <RelativeLayout
+                android:layout_marginTop="7dp"
+                android:onClick="deletePersonBtn"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/delete_back_lay">
+
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/delete"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

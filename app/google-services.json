@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871126867604",
+    "project_id": "age-calculator-63896",
+    "storage_bucket": "age-calculator-63896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871126867604:android:e9b5c672c4f85fc4601e81",
+        "android_client_info": {
+          "package_name": "com.limitco.agecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871126867604-ie1oqhs9b0l566br9e82oiphtlq593j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp8FVOiO2onVEXGRfr72A2wM70oyAkaKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871126867604-ie1oqhs9b0l566br9e82oiphtlq593j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonActivity">
+
+
+    <LinearLayout
+        android:id="@+id/addActivityTopLay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:onClick="addPersonBackBtn"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:lottie_rawRes="@raw/back_lottie"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/add_family_member_and_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/recyclerEmptyLayId"
+        android:orientation="vertical"
+        android:layout_below="@+id/addActivityTopLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:lottie_rawRes="@raw/find_people"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/no_person_was_found_please_add_your_family_members_and_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/addPersonRecyclerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addActivityTopLay"
+        android:layout_marginTop="10dp" />
+
+
+
+
+    <LinearLayout
+        android:onClick="showAddPersonPopup"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_margin="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/add_btn_lottie"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

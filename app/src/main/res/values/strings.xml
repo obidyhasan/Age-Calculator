@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3683066282343593/7740763144</string>
+
+
+    <!-- Home Fragment -->
+    <string name="age_calculate">Calculate your Age</string>
+    <string name="age_calculate_description">Find age and more details by your date of birth.</string>
+    <string name="name_of_day">Day name of any Date</string>
+    <string name="name_of_day_description">You can find out the day name of any date.</string>
+    <string name="age_compare">Compare Age</string>
+    <string name="age_compare_description">Compare the ages between two people.</string>
+    <string name="person_add">Add person &amp; get Notify</string>
+    <string name="person_add_description">Any valuable dates of family or friends can be saved &amp; get notify.</string>
+
+    <!-- Age Calculate -->
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+
+    <string name="website_url">https://sites.google.com/view/privacy-agecalculator/home</string>
+
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="more_info">More Info</string>
+    <string name="total_month">Total Month</string>
+    <string name="total_weeks">Total Weeks</string>
+    <string name="total_days">Total Days</string>
+    <string name="total_hour">Total Hour</string>
+    <string name="total_minutes">Total Minutes</string>
+    <string name="total_seconds">Total Seconds</string>
+    <string name="enter_today_s_date">Enter Today\'s Date</string>
+    <string name="person_1">Person 1</string>
+    <string name="name">Name</string>
+    <string name="person_2">Person 2</string>
+    <string name="birthday">Birthday</string>
+    <string name="age">Age</string>
+    <string name="next_birthday">Next Birthday</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="day_name">Day Name</string>
+    <string name="skip">Skip</string>
+    <string name="let_get_started">Let Get Started</string>
+    <string name="add_family_member_and_friend">Add Family member and Friend</string>
+    <string name="no_person_was_found_please_add_your_family_members_and_friends">No person was found. Please add your family members and friends</string>
+    <string name="add_your_profile">Add Your Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="select_date">Select date</string>
+    <string name="save">SAVE</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure_to_delete">Are you sure to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="notification">Notification</string>
+    <string name="notification_is_empty">Notification is empty</string>
+    <string name="rate_it">Rate it</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string-array name="birthday">
+        <item>Birthday</item>
+        <item>Anniversary</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

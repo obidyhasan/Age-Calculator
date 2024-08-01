@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/drawable/popup_layout_back.xml" value="0.131" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/drawable/profile_layout_back.xml" value="0.1865" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/drawable/profile_layout_ripple.xml" value="0.1865" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_age_calculate.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_age_compare.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_name_of_day.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_person.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_privacy_policy.xml" value="0.20416666666666666" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/add_person_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/AppDevelop/Final Project/AgeCalculator/AgeCalculator/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/age_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/age_calculate_back.xml" value="0.412109375" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/age_calculate_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/age_compare_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/age_compare_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/bottom_sheet_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/calculate_btn_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/calculate_btn_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/clear_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/compare_edit_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/delete_back_lay.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/details_age_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/edit_name_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/edit_text_background.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_clear.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_delete.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_next.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_notification.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/ic_skip.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/image_round.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/item_selector.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/name_calculate_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/name_of_day_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/name_of_day_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/no_btn_back.xml" value="0.4033203125" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/person_add_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/person_add_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/popup_layout_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/profile_layout_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/profile_layout_ripple.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/save_btn_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/shep_1.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/shep_2.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/spinner_back.xml" value="1.4857142857142858" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/white_lay_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/drawable/yes_btn_back.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_age_calculate.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_age_compare.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_details.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_main.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_name_of_day.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_on_boarding.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_person.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_privacy_policy.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/activity_splash_screen.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/add_person_popup.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/delete_bottom_lay.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/fragment_home.xml" value="0.35" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/fragment_notification.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/fragment_profile.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/notification_item_layout.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/person_item_layout.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/layout/slides_layout.xml" value="0.22" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.3651041666666667" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37538461538461537" />
+        <entry key="..\:/WORKS/AgeCalculator/AgeCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.37538461538461537" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

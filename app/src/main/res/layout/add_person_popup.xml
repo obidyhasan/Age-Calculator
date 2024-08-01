@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/popup_layout_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/addProfileTextId"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:text="@string/add_your_profile"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/editProfileTextId"
+                android:textColor="@color/black"
+                android:text="@string/edit_profile"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/popupCancelBtnId"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/cancel_lottie" />
+
+
+
+                <RelativeLayout
+                    android:layout_centerInParent="true"
+                    android:id="@+id/linearLayout"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:src="@drawable/avatar_4"
+                            android:background="@drawable/image_round"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/popupPersonImgId"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/popupAddImgBtnId"
+                        android:elevation="7dp"
+                        android:background="@drawable/image_round"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginBottom="28dp">
+
+
+                        <ImageView
+                            android:scaleType="centerCrop"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_add"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/popupNameEditId"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/enter_name"
+                app:hintTextColor="@color/black"
+                android:textColorHint="@color/black"
+                app:endIconTint="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Spinner
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/spinner_back"
+                android:paddingStart="10dp"
+                android:id="@+id/addPersonSpinnerId"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"/>
+
+
+            <TextView
+                android:textColor="#505050"
+                android:layout_marginStart="22sp"
+                android:textSize="17sp"
+                android:text="@string/select_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <DatePicker
+                android:id="@+id/popupDataPickerId"
+                android:soundEffectsEnabled="true"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <RelativeLayout
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/savePersonBtnId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/save_btn_back">
+
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/save"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/save_lottie"/>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
